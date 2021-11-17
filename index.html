@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link rel="stylesheet" href="static/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -38,10 +39,17 @@
                       <li class="filter list-group-item">
                         <label for="date">Enter a Date</label>
                         <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                        <label for="date">Enter a city</label>
+                        <input class="form-control" id="city" type="text" placeholder="City name">
+                        <label for="date">Enter a state</label>
+                        <input class="form-control" id="state" type="text" placeholder="State name">
+                        <label for="date">Enter a country</label>
+                        <input class="form-control" id="country" type="text" placeholder="Country code">
+                        <label for="date">Enter a shape</label>
+                        <input class="form-control" id="shape" type="text" placeholder="Enter Shape">
                       </li>
                     </ul>
                   </div>
-                  <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
                 </form>
               </div>
             </div>
@@ -61,7 +69,7 @@
                   <th class="table-head">Comments</th>
                 </tr>
               </thead>
-              <tbody></tbody>
+              <tbody id="table-contents"></tbody>
             </table>
           </div>
         </div>
