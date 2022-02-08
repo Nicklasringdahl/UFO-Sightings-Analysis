@@ -1,41 +1,38 @@
-UFO-Sightings-Analysis
+# UFO Sightings Analysis
 
 Analysing UFO sigthings across America.
 
-Description
+## Description
 
 Created an app to search for and filter UFO sightings data
 
+## Getting Started
+
+### Dependencies
+
+* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+* ex. Windows 10
+
+### Installing
+
+* Clone the repository to your computer.
+
+### Executing program
+
+* Run index.html either using live server or localhost.
+* Use filter to change sample.
 
 
-Getting Started
+## Authors
 
-
-Dependencies
-
-Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-ex. Windows 10
-
-Installing
-
-1.Clone the repository to your computer.
-
-2.Run Index.html either through live server or using localhost.
-
-3.Use the built in search and filter system to analyse the data.
-
-
-
-Authors
+Contributors names and contact info
 
 Nicklas Ringdahl
-
-www.linkedin.com/in/nicklas-ringdahl
-
-https://github.com/Nicklasringdahl
+[LinkedIn](www.linkedin.com/in/nicklas-ringdahl)
+[Github](https://github.com/Nicklasringdahl)
 
 
 
-Acknowledgments
+## Acknowledgments
 
-Monash University Bootcamp
+Monash University
